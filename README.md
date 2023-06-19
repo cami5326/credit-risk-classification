@@ -8,7 +8,7 @@
 
 * In the dataset, we can see there is a discrepancy between the healthy loans (0) counts and the high-risk loans (1) counts: 75036 healthy loans count vs 2500 high-risk count.
 
-* I went through the following stages of the machine learning to process the analysis: Pre-processing stage (cleaning and preparing the raw data), then training (recognizing the pattern), then validating and evaluating the model.
+* I went through the following stages of the machine learning to process the analysis: Pre-processing (cleaning and preparing the raw data), then training (recognizing the pattern), then validating and evaluating the model.
 
 * First, I used the supervised learning classification model called Logistic Regression to predict the probability of the binary healthy loans vs high-risk loans event to occur. Then, I used the resampling method to generate more data points as to balance the dataset and make a more accurate model. 
 
@@ -37,4 +37,4 @@
 
 ## Summary
 
-* My recommendation would be to use the 'Machine Learning Model 2' as its reported scores are balanced and shows high levels of Accuracy, Precision and Recall for both healthy loans and high-risk loans. With higher performance, the 'Machine Learning Model 2' is more suitable to predict the loan risks and classify them as healthy loans or high-risk loans.
+* My recommendation would be to use the 'Machine Learning Model 2' as its reported scores are balanced and shows high levels of Accuracy, Precision and Recall for both healthy loans and high-risk loans. With more data points after the resampling, the model 'Machine Learning Model 2' demonstrated higher performance, being more suitable to predict the loan risks and classify them as healthy loans or high-risk loans.
