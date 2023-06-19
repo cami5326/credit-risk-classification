@@ -2,10 +2,14 @@
 
 ## Overview of the Analysis
 
-* The purpose of here is to analyze a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
+* The purpose here is to analyze a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
+
 * The dataset reflected the following financial information: the loan size, the interest rate, the borrower income, the debt-to-income ratio, the number of accounts, the derogatory marks and the	total debt of each loan application.
+
 * In the dataset, we can see there is a discrepancy between the healthy loans (0) counts and the high-risk loans (1) counts: 75036 healthy loans count vs 2500 high-risk count.
+
 * I went through the following stages of the machine learning to process the analysis: Pre-processing stage (cleaning and preparing the raw data), then training (recognizing the pattern), then validating and evaluating the model.
+
 * First, I used the supervised learning classification model called Logistic Regression to predict the probability of the binary healthy loans vs high-risk loans event to occur. Then, I used the resampling method to generate more data points as to balance the dataset and make a more accurate model. 
 
 ## Results
