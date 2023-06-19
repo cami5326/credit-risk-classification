@@ -15,12 +15,25 @@ In this section, describe the analysis you completed for the machine learning mo
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+  * Accuracy - how often the model is correct: the model displays 18679 true positive results and 558 true negative results. 
+
+Precision - the ratio of the correctly predicted true positives to the total prediced positive observations: the model performs better predicting healthy loans (precision 1) than high-risk loans (precision 0.87).
+
+Recall - the ratio of actual positives identified correctly: the model performs better predicting healthy loans (recall 1) than high-risk loans (recall 0.89).
+
+Support - the number of actual occurrences of the class in the specified dataset: according to the support column, the model is imbalanced in the training data  (healthy loans 18759 vs high-risk loans 625), indicating structural weaknesses in the reported scores, in the the evaluation process.
 
 
 
 * Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+  * Accuracy - how often the model is correct: the model displays 55945 true positive results and 55954 true negative results. 
+
+Precision - the ratio of the correctly predicted true positives to the total prediced positive observations: the model performs equally well for predicting healthy loans (precision 0.99) and high-risk loans (precision 0.99).
+
+Recall - the ratio of actual positives identified correctly: the model performs equally well for predicting healthy loans (recall 0.99) and high-risk loans (recall 0.99).
+
+Support - the number of actual occurrences of the class in the specified dataset: according to the support column, the model is balanced in the training data (healthy loans 56277 vs high-risk loans 56277), indicating structural strength in the reported scores, in the the evaluation process.
+
 
 ## Summary
 
